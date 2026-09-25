@@ -13,7 +13,7 @@ jobs:
               chmod +x scripts/build-android-aarch64.sh
               scripts/build-android-aarch64.sh
     name: Build ${{matrix.target}}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Checkout source (shallow clone)
